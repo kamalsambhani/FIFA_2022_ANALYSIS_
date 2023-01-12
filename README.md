@@ -1,4 +1,4 @@
-# FIFA World Cup Analysis: Project Overview
+# FIFA 2022 World Cup Analysis: Project Overview
 
 **Tags: EDA, data visualization, soccer, FIFA**
 
@@ -23,8 +23,6 @@ Packages: matplotlib, pandas, seaborn, and warnings
 For the World Cup score goals analysis, there are two data sets: 
 - the **historic_world_cup_goals** contains the number of goals and matches of all FIFA World Cups until 2018;
 - the **qatar_world_cup_goals** contains the number of goals and matches of the FIFA World Cup Qatar 2022.
-
-Both data sets used in this notebook had all the information collected from Wikipedia and FIFA sites (for more info, check the README file in the data folder).
 
 ## Insights
 
