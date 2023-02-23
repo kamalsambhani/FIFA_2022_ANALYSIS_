@@ -1,8 +1,8 @@
 # FIFA 2022 World Cup Analysis
 **FIFA 2022 World Cup Analysis**
 
-############* Basic Exploratory data analysis
-######* Answered the following questions
+##* Basic Exploratory data analysis
+##* Answered the following questions
 
    1. Highest number of times a country has hosted worldcup
    =  _France, Brazil, Mexico, Italy hosted world cup 2 times which is highest_
