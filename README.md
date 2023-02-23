@@ -1,32 +1,23 @@
-# FIFA 2022 World Cup Analysis: Project Overview
+# Fifa-World-Cup-Analysis
+Fifa World Cup Analysis
 
-**Tags: EDA, data visualization, soccer, FIFA**
+CONCLUSION / INTERESTING FACTS according to the dataset:-
 
-This notebook's main steps were:
-
-- Basic EDA;
-- Calculate and plot the average scored goals by World Cup Edition;
-- Average number of goals during all the World Cup editions analysis;
-- Qatar 2022 World Cup average number of goals;
-- Scored goals over game time analysis.
-
-## Code and resources
-
-Platform: Jupyter Notebook
-
-Python version: 3.9.13
-
-Packages: matplotlib, pandas, seaborn, and warnings
-
-## Data set
-
-For the World Cup score goals analysis, there are two data sets: 
-- the **historic_world_cup_goals** contains the number of goals and matches of all FIFA World Cups until 2018;
-- the **qatar_world_cup_goals** contains the number of goals and matches of the FIFA World Cup Qatar 2022.
-
-## Insights
-
-- There are two distinct eras in terms of average scored goals: 1930-1958 (all the editions had above 3.5 goals/game); 1962- (all the editions had below 3 goals/game);
-- The average number of goals scored by tournament day oscillates a lot in the group stage due to the low number of games, and this number tends to stabilize over time;
-- The 2022 Qatar World Cup had 172 goals scored, with an average of 2.69 goals per game. Both numbers are the highest numbers in the 32-team era;
-- Most of the goals in the 2022 Qatar WC were scored in the second half (59%). 
+1) Total 18 countries have hosted worldcup so far.
+2) Highest number of times a country has hosted worldcup is 2 and those countries are as follows:-
+France, Brazil, Mexico, Italy.
+3) Highest attendance ever in world cup was in the year 1994 - 3587538 attended the event.
+4) Lowest attendance ever in world cup was in the year 1934 - 363000 attended the event.
+5) Least number of matches played in a world was in the year 1934 with only 17 matches played.
+6) Highest average attendance in a single world cup - 1994 - 68991 people.
+7) Lowest average attendance in a single world cup - 1950 - 47511 people.
+8) Highest number of Golden balls ever won is by Lionel Messi, only player to win it 2 times.
+9) Highest number of goals scored by a golden boot winner in a single world cup are by Just Fontaine - 13 goals.
+10) Least number of goals scored by a golden boot winner in a single world cup are by Valentin Ivanov - 4 goals.
+11) Highest number of fair play awards by a team in all world cups - Brazil - 3 times.
+12) Highest number of times champion - Brazil - 5 times.
+13) Highest number of times runner up - Argentina - 3 times.
+14) Highest number of times third place - Germany - 3 times.
+15) Highest number of times fourth place - Uruguay - 3 times.
+16) Highest number of teams played in a worldcup - 2022 - 32 teams.
+17) Least number of teams played in a worldcup - 1930 - 13 teams.
