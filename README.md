@@ -1,7 +1,7 @@
 # FIFA 2022 World Cup Analysis
  **FIFA 2022 World Cup Analysis** 
 
-*** Basic Exploratory data analysis
+** * Basic Exploratory data analysis
 * Answered the following questions** 
 
    1. Highest number of times a country has hosted worldcup
