@@ -1,5 +1,5 @@
 # FIFA 2022 World Cup Analysis
-** FIFA 2022 World Cup Analysis **
+*** FIFA 2022 World Cup Analysis ***
 
 * Basic Exploratory data analysis
 * Answered the following questions 
