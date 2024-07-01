@@ -1,5 +1,5 @@
-# FIFA 2022 World Cup Analysis
- **FIFA 2022 World Cup Analysis** 
+# FIFA  World Cup Analysis
+ **FIFA  World Cup Analysis** 
 
  * Basic Exploratory data analysis
  * Used libraries like Pandas and Matplotlib
