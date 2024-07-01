@@ -1,0 +1,63 @@
+1. Hosts and their count:
+
+SELECT Hosts, COUNT(*) AS Count
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+GROUP BY Hosts
+ORDER BY Count DESC;
+
+
+2. Top 10 Total Attendance in any year:
+
+SELECT Year, Hosts, Total_Attendance
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+ORDER BY Total_Attendance DESC
+LIMIT 10;
+
+
+
+3. Total attendance in millions over the years:
+
+SELECT Year, MAX(Total_Attendance) AS Total_Attendance
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+GROUP BY Year
+ORDER BY Year ASC;
+
+
+4, Top 10 least number of matches played in any year:
+
+SELECT Year, MIN(Matches) AS Matches
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+GROUP BY Year
+ORDER BY Matches ASC
+LIMIT 10;
+
+
+5. Total number of matches played over the years:
+
+SELECT Year, MAX(Matches) AS Matches
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+GROUP BY Year
+ORDER BY Year ASC;
+
+
+6. Top 10 Average Attendance in any year:
+
+SELECT Year, Hosts, Average_Attendance
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+ORDER BY Average_Attendance DESC
+LIMIT 10;
+
+
+7. Average number of attendance over the years:
+
+SELECT Year, MAX(Average_Attendance) AS Average_Attendance
+FROM fifa_world_cup_attendance
+WHERE Year != 'Overall'
+GROUP BY Year
+ORDER BY Year ASC;
